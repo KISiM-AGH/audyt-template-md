@@ -1,4 +1,4 @@
-# h1 Heading 8-)
+# h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
@@ -114,12 +114,13 @@ Right aligned columns
 
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+Autoconverted link https://github.com/nodeca/pica
 
 
 ## Images
 
-![Cat1](https://thiscatdoesnotexist.com/)
+<img src="https://thiscatdoesnotexist.com/" width="250" height="250"  alt="Random cat"/>
+
 ![Cat2](https://d2ph5fj80uercy.cloudfront.net/05/cat1945.jpg "This cat does not exists")
 
 Like links, Images also have a footnote style syntax
@@ -132,27 +133,9 @@ With a reference later in the document defining the URL location:
 
 ### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
 
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
+> Classic markup: :wink:  :cry:  :laughing: :yum:
 
 see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
 
 
 ### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
@@ -171,39 +154,6 @@ Duplicated footnote reference[^second].
 
 [^second]: Footnote text.
 
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
 
 ### [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 
