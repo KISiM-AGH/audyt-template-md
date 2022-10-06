@@ -166,14 +166,3 @@ Mermaid is a simple markdown syntax for generating charts from text via javascri
       B-->D;
       C-->D;
 ```
-
-### [PlantUML](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
-
-PlantUML allows to embed UML diagrams in markdown files.
-
-```plantuml
-@startuml
-Alice -> Bob: test
-@enduml
-```
-
